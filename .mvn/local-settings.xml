@@ -1,0 +1,10 @@
+<settings>
+    <mirrors>
+        <mirror>
+            <id>spring-enterprise-http-unblocker</id>
+            <mirrorOf>spring-enterprise</mirrorOf>
+            <name></name>
+            <url>http://maven.tanzu.corby.page:8081/repository/spring-enterprise/</url>
+        </mirror>
+    </mirrors>
+</settings>

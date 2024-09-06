@@ -19,7 +19,7 @@ jobs:
         with:
           tanzu_api_token: ${{ secrets.TanzuApiToken }}
           container_registry: ghcr.io/${{ github.actor }}/spu-sensors
-          buildPlanSource: spu-custom.tanzu.vmware.com
+          buildPlanSource: simple.tanzu.vmware.com
           javaVersion: 17
           project: EMEA
           space: spu-space
